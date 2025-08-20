@@ -2,6 +2,8 @@
   "name": "yellowfish-machine-test-adarsh",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://clusterduckjs.github.io/yellowfish-machine-test/",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
