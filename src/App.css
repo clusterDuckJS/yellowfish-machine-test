@@ -1,0 +1,17 @@
+.app-container {
+    span.highlight {
+        color: var(--color-accent);
+        text-decoration: underline wavy var(--color-yellow);
+        text-decoration-thickness: 3px;
+        text-underline-offset: 6px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .app-container {
+        h1{
+            font-size: 2rem;
+        }
+    }
+}

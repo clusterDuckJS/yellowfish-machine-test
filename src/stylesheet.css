@@ -1,0 +1,63 @@
+:root {
+  /* Primary brand colors */
+  --color-accent: #B42AB5; 
+  
+  /* Supporting colors */
+  --color-teal: #388A7C;   
+  --color-dark: #1A1A1A;   
+  --color-yellow: #FFD600;
+  --color-blue: #344AC1;
+  
+  /* Neutral colors */
+  --color-white: #FFFFFF;  
+  --color-light: #E7E9F8;  
+  --color-grey: #616161;   /* Subtext */
+
+  font-family: Poppins, sans-serif;
+  line-height: 100%;
+  color-scheme: light dark;
+  background-color: #FFFFFF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* ---------------CSS resets--------------- */
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid green; */
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ---------------CSS resets--------------- */
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  /* padding: 0 5rem; */
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #161616;
+}
+
+
+p {
+  font-size: 0.938rem;
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--color-grey);
+}
